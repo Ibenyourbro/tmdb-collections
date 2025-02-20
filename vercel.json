@@ -8,6 +8,19 @@
   ],
   "routes": [
     {
+      "src": "/manifest.json",
+      "dest": "/server.js",
+      "methods": ["GET"]
+    },
+    {
+      "src": "/catalog/(.*)",
+      "dest": "/server.js"
+    },
+    {
+      "src": "/meta/(.*)",
+      "dest": "/server.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "/server.js"
     }
