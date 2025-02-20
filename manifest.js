@@ -62,7 +62,7 @@ async function getManifest() {
       },
       {
         type: "collections",
-        id: `tmdbc${dev}.disneyPrinczess`,
+        id: `tmdbc${dev}.disneyPrincess`,
         name: "Disney Princess" + dev,
         extra: [
           {
