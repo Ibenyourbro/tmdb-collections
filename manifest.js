@@ -60,6 +60,28 @@ async function getManifest() {
           },
         ],
       },
+      {
+        type: "collections",
+        id: `tmdbc${dev}.disneyPrinczess`,
+        name: "Disney Princess" + dev,
+        extra: [
+          {
+            name: "search",
+            isRequired: false,
+          },
+        ],
+      },
+      {
+        type: "collections",
+        id: `tmdbc${dev}.pixar`,
+        name: "Pixar Movies" + dev,
+        extra: [
+          {
+            name: "search",
+            isRequired: false,
+          },
+        ],
+      },
     ],
   };
 }
